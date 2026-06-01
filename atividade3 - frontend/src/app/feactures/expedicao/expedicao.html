@@ -1,0 +1,103 @@
+<h2>
+    Produtos
+</h2>
+
+@if (showForm) {
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+    <h3>
+        {{
+            produtoEmEdicao
+            ? 'Editar Produto'
+            : produtoSelecionado
+                ? 'Inserindo Quantidade para Pedido'
+                : 'Registrar Produto'
+        }}
+    </h3>
+
+    <label for="descricao">Descrição</label>
+    <input
+    formControlName="descricao" placeholder="Descrição do Produto" [readonly]="produtoSelecionado !== null && produtoEmEdicao === null">
+    @if (form.get("descricao")?.invalid && form.get("descricao")?.touched) {
+        <div>
+            @if (form.get("descricao")?.errors?.["required"]) {
+                <small>Descrição Obrigatório</small>
+            }
+            @if (form.get("descricao")?.errors?.["minlength"]) {
+                <small>A Descrição deve ter ao menos 2 caracteres </small>
+            }
+        </div>
+    }
+
+    <label for="Estoque">
+        {{
+            produtoEmEdicao
+            ? 'Estoque'
+            : produtoSelecionado
+                ? 'Quantidade do Pedido'
+                : 'Estoque'
+        }}
+    </label>
+    <input type="number" formControlName="Estoque" placeholder="Quantidade">
+    @if (form.get("Estoque")?.invalid && form.get("Estoque")?.touched) {
+        <div>
+            @if (form.get("Estoque")?.errors?.["required"]) {
+                <small>Estoque Obrigatório</small>
+            }
+        </div>
+    }
+
+    <button type="submit" [disabled]="form.invalid">
+        {{ produtoSelecionado ? 'Adicionar ao Pedido' : 'Registrar Novo' }}
+    </button>
+    
+    @if (produtoSelecionado || produtoEmEdicao) {
+        <button
+            type="button"
+            (click)="cancelarSelecao()"
+            style="margin-left: 10px; background-color: gray; color: white;">
+            Cancelar
+        </button>
+    }
+</form> 
+}
+
+<ul>
+    @for (expedicao of expedicao$ | async; track expedicao.id) {
+        <li>
+            {{ expedicao.descricao }} ({{ expedicao.estoque }}) 
+            
+            <button type="button" (click)="selecionarParaPedido(expedicao)" style="margin-left: 10px;">
+                Selecionar
+            </button>
+            
+            @if (isAdmin) {
+                <button type="button" (click)="excluirPedido(expedicao)" style="margin-left: 10px;">
+                    Excluir
+                </button>
+                <button type="button" (click)="editarProduto(expedicao)" style="margin-left: 10px;">
+                    Editar
+                </button>
+            }
+        </li>
+    } @empty {
+        <p> {{ errorMSG }}</p>
+    }
+</ul>
+
+<hr>
+
+<h3>Itens Selecionados para o Pedido:</h3>
+<ul>
+  @for (item of itensAdicionados; track item.id) {
+    <li>
+      {{ item.descricao }} - Qtd: {{ item.quantidade }}
+    </li>
+  } @empty {
+    <p>Nenhum item selecionado.</p>
+  }
+</ul>
+
+@if (itensAdicionados.length > 0) {
+    <button (click)="finalizarPedido()" style="background-color: green; color: white; padding: 10px;">Finalizar Pedido</button>
+}

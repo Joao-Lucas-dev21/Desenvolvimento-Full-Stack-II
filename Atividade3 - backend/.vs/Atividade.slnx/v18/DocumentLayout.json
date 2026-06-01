@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|c:\\users\\joao lucas\\documents\\desenvolvimento full stack ii\\atividade\\atividade\\api\\controle\\produtocontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|solutionrelative:api\\controle\\produtocontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoControle.cs",
+              "DocumentMoniker": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Api\\Controle\\ProdutoControle.cs",
+              "RelativeDocumentMoniker": "Api\\Controle\\ProdutoControle.cs",
+              "ToolTip": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Api\\Controle\\ProdutoControle.cs",
+              "RelativeToolTip": "Api\\Controle\\ProdutoControle.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T00:31:22.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
