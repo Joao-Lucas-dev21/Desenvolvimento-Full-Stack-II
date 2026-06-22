@@ -1,0 +1,46 @@
+<div class="container-estoque">
+  <h2>Painel de Ajuste de Estoque (Restrito)</h2>
+
+  <form (ngSubmit)="onSubmit()" #estoqueForm="ngForm">
+    
+    <div class="form-grupo">
+      <label for="produtoId">ID do Produto:</label>
+      <input 
+        type="number" 
+        id="produtoId" 
+        name="produtoId" 
+        [(ngModel)]="produtoId" 
+        required 
+        min="1"
+        class="form-control">
+    </div>
+
+    <div class="form-grupo">
+      <label for="novaQuantidade">Nova Quantidade em Estoque:</label>
+      <input 
+        type="number" 
+        id="novaQuantidade" 
+        name="novaQuantidade" 
+        [(ngModel)]="novaQuantidade" 
+        required 
+        min="0" 
+        #qtd="ngModel"
+        class="form-control">
+      
+      @if (novaQuantidade < 0 || (qtd.invalid && qtd.touched)) {
+        <span class="erro-mensagem">A quantidade não pode ser negativa!</span>
+      }
+    </div>
+
+    <button type="submit" [disabled]="estoqueForm.invalid || novaQuantidade < 0">
+      Atualizar Estoque
+    </button>
+  </form>
+
+  @if (mensagemSucesso) {
+    <div class="alerta-sucesso">{{ mensagemSucesso }}</div>
+  }
+  @if (mensagemErro) {
+    <div class="alerta-erro">{{ mensagemErro }}</div>
+  }
+</div>

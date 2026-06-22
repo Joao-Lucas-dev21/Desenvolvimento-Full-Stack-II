@@ -12,6 +12,6 @@ namespace Atividade.Aplicacao.Serviços
         Task UpdateAsync(int id, ProdutoDTO produtoDTO);
         Task DeleteAsync (int id);
         Task FinalizarPedidoAsync(PedidoComando comando);
-
+        Task AtualizarEstoqueComLogAsync(int produtoId, int novaQuantidade, int usuarioId);
     }
 }

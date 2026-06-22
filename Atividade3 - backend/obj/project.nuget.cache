@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MwKkuSuVmu8=",
+  "dgSpecHash": "bhnw/UMz7uM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Atividade.csproj",
+  "projectFilePath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Atividade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joao Lucas\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Joao Lucas\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

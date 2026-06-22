@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Atividade.csproj": {}
+    "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Atividade.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Atividade.csproj": {
+    "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Atividade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Atividade.csproj",
+        "projectUniqueName": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Atividade.csproj",
         "projectName": "Atividade",
-        "projectPath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Atividade.csproj",
+        "projectPath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Atividade.csproj",
         "packagesPath": "C:\\Users\\Joao Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\obj\\",
+        "outputPath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

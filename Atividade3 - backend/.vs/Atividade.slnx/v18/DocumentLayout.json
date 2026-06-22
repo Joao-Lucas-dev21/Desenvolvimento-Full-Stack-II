@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\",
+  "WorkspaceRootPath": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|c:\\users\\joao lucas\\documents\\desenvolvimento full stack ii\\atividade\\atividade\\api\\controle\\produtocontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|c:\\users\\joao lucas\\documents\\desenvolvimento full stack ii\\atividade3 - backend\\infra\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|solutionrelative:infra\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|c:\\users\\joao lucas\\documents\\desenvolvimento full stack ii\\atividade3 - backend\\aplicacao\\servi\u00E7os\\produtoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|solutionrelative:aplicacao\\servi\u00E7os\\produtoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|c:\\users\\joao lucas\\documents\\desenvolvimento full stack ii\\atividade3 - backend\\aplicacao\\servi\u00E7os\\iprodutoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|solutionrelative:aplicacao\\servi\u00E7os\\iprodutoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|c:\\users\\joao lucas\\documents\\desenvolvimento full stack ii\\atividade3 - backend\\api\\controle\\produtocontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|solutionrelative:api\\controle\\produtocontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|c:\\users\\joao lucas\\documents\\desenvolvimento full stack ii\\atividade3 - backend\\dominio\\entidade\\logestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAF102E-F4F2-FC64-5ADA-F64393E1990A}|Atividade.csproj|solutionrelative:dominio\\entidade\\logestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +35,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProdutoControle.cs",
-              "DocumentMoniker": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Api\\Controle\\ProdutoControle.cs",
-              "RelativeDocumentMoniker": "Api\\Controle\\ProdutoControle.cs",
-              "ToolTip": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade\\Atividade\\Api\\Controle\\ProdutoControle.cs",
-              "RelativeToolTip": "Api\\Controle\\ProdutoControle.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwC4AAAANAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Infra\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infra\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Infra\\AppDbContext.cs",
+              "RelativeToolTip": "Infra\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T00:31:22.222Z",
+              "WhenOpened": "2026-06-20T13:48:51.167Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoServico.cs",
+              "DocumentMoniker": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Aplicacao\\Servi\u00E7os\\ProdutoServico.cs",
+              "RelativeDocumentMoniker": "Aplicacao\\Servi\u00E7os\\ProdutoServico.cs",
+              "ToolTip": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Aplicacao\\Servi\u00E7os\\ProdutoServico.cs",
+              "RelativeToolTip": "Aplicacao\\Servi\u00E7os\\ProdutoServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T13:43:17.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Dominio\\Entidade\\LogEstoque.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidade\\LogEstoque.cs",
+              "ToolTip": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Dominio\\Entidade\\LogEstoque.cs",
+              "RelativeToolTip": "Dominio\\Entidade\\LogEstoque.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T13:42:36.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProdutoServico.cs",
+              "DocumentMoniker": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Aplicacao\\Servi\u00E7os\\IProdutoServico.cs",
+              "RelativeDocumentMoniker": "Aplicacao\\Servi\u00E7os\\IProdutoServico.cs",
+              "ToolTip": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Aplicacao\\Servi\u00E7os\\IProdutoServico.cs",
+              "RelativeToolTip": "Aplicacao\\Servi\u00E7os\\IProdutoServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T13:41:24.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoControle.cs",
+              "DocumentMoniker": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Api\\Controle\\ProdutoControle.cs",
+              "RelativeDocumentMoniker": "Api\\Controle\\ProdutoControle.cs",
+              "ToolTip": "C:\\Users\\Joao Lucas\\Documents\\Desenvolvimento Full Stack II\\Atividade3 - backend\\Api\\Controle\\ProdutoControle.cs",
+              "RelativeToolTip": "Api\\Controle\\ProdutoControle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T00:31:22.222Z"
             }
           ]
         }

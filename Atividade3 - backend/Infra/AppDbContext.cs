@@ -14,6 +14,7 @@ namespace Atividade.Infra
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<ItemPedido> ItemPedidos { get; set; }
+        public DbSet<LogEstoque> LogsEstoque { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
